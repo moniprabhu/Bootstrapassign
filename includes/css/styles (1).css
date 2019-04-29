@@ -1,0 +1,95 @@
+
+   footer{
+      background-color: :grey;
+      color: #eee;
+      font-size: 21px;
+      padding: 20px;
+   }
+
+ 
+   #myCarousel {
+      margin-top: 60px;
+   }
+
+   #c1
+   {
+      padding-top:7cm;
+      font-color: blue;
+
+   }
+   #c2
+   {
+      padding-top:7cm;
+       font-color: red;
+   }
+   #c3
+   {
+      padding-top:7cm;
+       font-color: red;
+   }
+   .carousel-caption{
+      font-size: 30px;
+   }
+   .carousel-caption h4{
+      font-size: 32px;
+      padding-bottom: 3cm;
+   }
+   #p1{
+      font-size: 18px;
+      padding-right: 10px;
+   }
+    #p2{
+      font-size: 18px;
+      padding-right: 10px;
+   }
+    #p3{
+      font-size: 18px;
+      padding-left: 10px;
+   }
+   #p4{
+      font-size: 18px;
+      padding-left: 10px;
+   }
+   #myCarousel .item{ height: 200px; }
+
+   #slide1{
+       background: url('../../images/micro1.jpg') top center no-repeat;
+   }
+   #slide2{
+       background: url('../../images/sky1.jpg') top center no-repeat;
+   }
+   
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+   
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+   
+}
+
+/* Large desktop */
+@media (min-width: 900px) {
+   #myCarousel .item{ height: 600px; }
+   #slide1{
+       background: url('../../images/micro1.jpg') top center no-repeat;
+   }
+   #slide2{
+       background: url('../../images/sky1.jpg') top center no-repeat;
+   }
+
+}
+
+
+
+
+   
+   
